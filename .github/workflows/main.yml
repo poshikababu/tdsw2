@@ -1,0 +1,13 @@
+name: Dummy Workflow
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  dummy-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3000552@ds.study.iitm.ac.in
+        run: echo "This step does absolutely nothing useful."
